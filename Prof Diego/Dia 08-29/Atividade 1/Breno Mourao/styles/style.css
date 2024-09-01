@@ -32,6 +32,10 @@ nav li:hover {
     font-weight: bold;
 }
 
+p {
+    text-indent: 25px;
+}
+
 nav img {
     height: 1em;
     width: 1em;
