@@ -1,13 +1,13 @@
 let titulos = document.querySelectorAll(".titulo")
 let corpos = document.querySelectorAll(".corpo")
 let backgroundList = [
-    "./img/default-wallpaper.jpg", //DEFAULT
-    "./img/arte-e-design.png", 
-    "./img/educacao-e-cultura.png", 
-    "./img/meio-ambiente-e-estilo-de-vida.png", 
-    "./img/ciencia-e-tecnologia.png", 
-    "./img/saude-e-bem-estar.png", 
-    "./img/economia-e-financas.png"
+    "./img/bg/default-wallpaper.jpg", //DEFAULT
+    "./img/bg/arte-e-design.png", 
+    "./img/bg/educacao-e-cultura.png", 
+    "./img/bg/meio-ambiente-e-estilo-de-vida.png", 
+    "./img/bg/ciencia-e-tecnologia.png", 
+    "./img/bg/saude-e-bem-estar.png", 
+    "./img/bg/economia-e-financas.png"
 ]
 
 titulos.forEach((titulo, key) => {
@@ -31,5 +31,5 @@ function hideAll(){
 
 function updateBackground(key){
     if(key == undefined) key = 0        
-    document.querySelector("body").style.backgroundImage = 'url("' + backgroundList[key] + '"'
+    document.querySelector(".container").style.backgroundImage = 'url("' + backgroundList[key] + '"'
 }
