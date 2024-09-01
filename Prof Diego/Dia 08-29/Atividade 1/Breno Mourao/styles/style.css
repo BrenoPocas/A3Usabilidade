@@ -1,7 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .hide{
     display: none;
 }
 
-img {
-    max-height: 200px;
+h2 {
+    width: fit-content;
 }
