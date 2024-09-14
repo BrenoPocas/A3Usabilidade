@@ -1,0 +1,8 @@
+.card-title {
+    font-size: 2rem; /* Ajuste o tamanho conforme necessário */
+    font-weight: bold; /* Negrito */
+}
+
+.card-link {
+    margin-right: 100px; /* Altera o valor conforme o espaçamento desejado */
+}
