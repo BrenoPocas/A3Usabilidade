@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(241, 241, 241);
+    width: 98%;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+
+.nome_curso{
+    display: flex;
+    justify-content: center
+}
+
+.descricao_curso{
+    font-size: 20px;
+}
+
+h3, img {
+    display: inline;
+}
+
+.atributos_curso{
+    display: flex;
+}
+
+img{
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.id{
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.quadradinhos{
+    background-color: rgb(235, 234, 234);
+    border: 10px solid rgba(235, 234, 234);
+    border-radius: 15px;
+    width: 500px;
+    margin: 10px;
+}
+
+.flex {
+    display: flex;
+    gap: 5px;
+}
+
+.center {
+    align-items: center;
+}
+
+li{
+     list-style-type: circle;
+     
+}
+
+ul{
+    padding-left: 27px;
+}
+
+
+
+
+
+.ucs{
+    display: flex;
+}
+
+.uc{
+    background-color: rgb(235, 234, 234);
+    border: 10px solid rgba(235, 234, 234);
+    border-radius: 15px;
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img_text{
+    gap: 5px;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    display: inline;
+}
