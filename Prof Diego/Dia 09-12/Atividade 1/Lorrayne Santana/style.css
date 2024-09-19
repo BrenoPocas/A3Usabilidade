@@ -1,0 +1,30 @@
+header {
+    background-color: brown;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+a {
+    color: aliceblue;
+    margin: 15px;
+}
+
+div {
+    margin: 0 auto;
+    width: 40%;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+
+}
+
+* {
+    box-sizing: border-box;
+}
