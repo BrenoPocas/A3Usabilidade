@@ -1,0 +1,38 @@
+[
+    {
+        "nome": "X-Salada",
+        "imagem": "img/xsalada.jpeg",
+        "descricao": "Um clássico saboroso e refrescante! Pão macio, suculento hambúrguer, queijo derretido, alface crocante, tomate fresco e maionese caseira.",
+        "preco": 19.99
+      },
+      {
+        "nome": "X-Egg",
+        "imagem": "img/xegg.jpg",
+        "descricao": "Um clássico reinventado! Hambúrguer suculento, queijo derretido, alface fresca, tomate maduro e um ovo frito no ponto perfeito.",
+        "preco": 25.99
+      },
+      {
+        "nome": "X-Bacon",
+        "imagem": "img/xbacon.jpg",
+        "descricao": " Um clássico que nunca sai de moda! Hambúrguer suculento, queijo derretido, bacon crocante, alface fresca, tomate maduro e maionese caseira.",
+        "preco": 27.99
+      },
+      {
+        "nome": "X-Tudo",
+        "imagem": "img/xtudo.jpg",
+        "descricao": "Um banquete em cada mordida! Hambúrguer suculento, queijo derretido, bacon crocante, ovo frito, presunto, alface fresca, tomate maduro e maionese caseira.",
+        "preco": 32.99
+      },
+      {
+        "nome": "Fritas",
+        "imagem": "img/fritas.avif",
+        "descricao": " Deliciosas batatas cortadas em palitos, fritas até a perfeição, douradas por fora e macias por dentro. Acompanhamento perfeito para qualquer lanche ou refeição.",
+        "preco": 7.99
+      },
+      {
+        "nome": "Fritas c/ bacon",
+        "imagem": "img/fritasbacon.jpg",
+        "descricao": " Deliciosas batatas fritas douradas e crocantes, cobertas com pedacinhos de bacon suculentos e irresistíveis. A combinação perfeita para qualquer ocasião!",
+        "preco": 13.99
+      }
+  ]
