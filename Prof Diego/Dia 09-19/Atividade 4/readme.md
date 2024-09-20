@@ -1,0 +1,1 @@
+4) Receba três notas, calcule e apresente a média aritmética das notas informadas.
