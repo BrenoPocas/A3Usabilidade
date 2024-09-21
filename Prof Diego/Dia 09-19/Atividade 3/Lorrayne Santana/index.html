@@ -8,11 +8,12 @@
 </head>
 <body>
     <form>
-        <label for="inputCelsius">Digite a temperatura em Celsius: </label><br>
-        <input type="number" id="inputCelsius" step="0.01"><br>
+        <label for="temperaturaCelsius">Digite a temperatura em Celsius:</label><br>
+        <input type="number" id="temperaturaCelsius" step="0.01"><br>
     </form>
+    <button onclick="calcularTemperatura()">Calcular</button>
 
-    <p>A temperatura em Fahrenheit: </p>
+    <p id="resultado"></p>
 
     <script src="script.js"></script>
 </body>

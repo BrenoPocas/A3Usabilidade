@@ -1,7 +1,6 @@
 function calcularAumento() {
     
     const salarioAtual = document.getElementById("salarioAtual").value;
-    console.log(typeof(salarioAtual))
 
     const novoSalario = (salarioAtual * 0.25) + parseFloat(salarioAtual);
 
