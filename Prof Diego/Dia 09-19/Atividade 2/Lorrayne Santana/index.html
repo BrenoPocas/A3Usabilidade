@@ -8,11 +8,12 @@
 </head>
 <body>
     <form>
-        <label for="inputSalario">Digite o seu salário atual: </label><br>
-        <input type="number" id="inputSalario" step="0.01"><br>
+        <label for="salarioAtual">Digite o seu salário atual:</label><br>
+        <input type="number" id="salarioAtual" step="0.01"><br>
     </form>
+    <button onclick="calcularAumento()">Calcular</button>
 
-    <p>Seu novo salário: </p>
+    <p id="resultado"></p>
 
     <script src="script.js"></script>
 </body>
