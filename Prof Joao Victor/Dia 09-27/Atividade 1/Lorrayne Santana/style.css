@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(./img/calo.jpg);
+    background-size: cover;
+}
+
+div {
+    background-color: aliceblue;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: normal;
+    align-items: stretch;
+    padding-bottom: 30px;
+}
+
+img {
+    padding: 30px;
+}
+
+p {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+h1 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
