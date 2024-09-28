@@ -7,6 +7,14 @@ thead th {
   padding: 10px;
 }
 
+tbody th {
+  text-align: left;
+}
+
+tfoot th {
+  text-align: left;
+}
+
 tbody th, tfoot th, td {
   padding: 5px;
 }
