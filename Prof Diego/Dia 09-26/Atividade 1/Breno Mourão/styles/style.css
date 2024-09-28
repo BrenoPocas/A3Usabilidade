@@ -1,0 +1,67 @@
+thead tr {
+  color: #f5fcf2;
+  background-color: #3d5999;
+}
+
+thead th {
+  padding: 10px;
+}
+
+tbody th, tfoot th, td {
+  padding: 5px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #dfe2ed;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #8b9cc4;
+}
+
+tfoot tr {
+  color: #f5fcf2;
+  background-color: #ff4400;
+}
+
+table td {
+  text-align: right;
+}
+
+tbody th, tbody td, tfoot th, tfoot td, thead{
+  border: 1px solid #596b92;
+}
+
+table {  
+  border-collapse: collapse;
+}
+
+tbody tr:hover {
+  background-color: #fefeff;
+  color: #ff4400;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#modalContainer {
+  padding: 10px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.popup {
+  border: 1px, solid, black;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 5px;
+}
+
+.popup p {
+  margin: 0;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+}
