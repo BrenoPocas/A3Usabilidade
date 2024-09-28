@@ -2,8 +2,6 @@ fetch('produtos.json')
     .then(response => response.json())
     .then(produtos => {
         produtos.forEach(produto => {
-            console.log(produto)
-
             const card = document.createElement('div')
             card.classList.add('cartao')
 
