@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Filme 1",
+    "imgPath": "C:\\Users\\breno\\Desktop\\Usabilidade\\A3Usabilidade\\Prof Diego\\Dia 09-26\\Atividade 3\\Breno Mourão\\img\\A-Viagem-de-Chihiro-DVD.webp",
+    "price": "1,99",
+    "horarios": "meio dia e meia noite"
+  },
+  {
+    "name": "Filme 2",
+    "imgPath": "outro-caminho",
+    "price": "5,00",
+    "horarios": "de tarde"
+  },
+  {
+    "name": "Filme 3",
+    "imgPath": "outro-caminho",
+    "price": "5,00",
+    "horarios": "de tarde"
+  },
+  {
+    "name": "Filme 4",
+    "imgPath": "outro-caminho",
+    "price": "5,00",
+    "horarios": "de tarde"
+  }
+]
