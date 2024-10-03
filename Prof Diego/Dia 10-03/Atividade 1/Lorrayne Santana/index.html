@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Formulário</h1>
+
+    <form action="#">
+
+        <div>
+          <label for="nome">Login:</label>
+          <input type="text" id="login" required/>
+        </div>
+
+        <div>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" required/>
+        </div>
+
+        <div>
+            <label for="date">Data Nascimento</label>
+            <input type="date" id="date" required/>
+        </div>
+
+        <div>
+            <label for="pass">Senha:</label>
+            <input type="password" id="pass" name="password" minlength="8" required/>
+        </div>
+
+        <div>
+            <label for="pass">Confirmar Senha:</label>
+            <input type="password" id="pass" name="password" minlength="8" required/>
+        </div>
+
+        <div>
+            <label for="sexo">Sexo:</label>
+            <select name="sexo" id="sexo">
+                <option value="Feminino">Feminino</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Prefiro não opinar">Prefiro não opinar</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" required/>
+        </div>
+
+        <div>
+            <label for="home-page">Home-Page:</label>
+            <input type="text" id="home-page" required/>
+        </div>
+
+        <div>
+            <label for="interesses">Interesses:</label>
+            <select name="interesses" id="interesses" multiple>
+                <option value="Esporte">Esporte</option>
+                <option value="Tecnologia">Tecnologia</option>
+                <option value="Cinema">Cinema</option>
+                <option value="Moda">Moda</option>
+            </select>
+        </div>
+
+        <div>
+            <button class="button_reset" type="reset">Limpar</button>
+        </div>
+
+        <div>
+            <button class="button_submit" type="submit">Cadastrar</button>
+        </div>
+
+    </form>
+
+</body>
+</html>
