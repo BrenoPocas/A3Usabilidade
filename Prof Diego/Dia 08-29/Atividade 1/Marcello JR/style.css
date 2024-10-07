@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(176, 179, 35);
+    background-color: rgb(129, 112, 85);
     text-align: center;
 }
 
@@ -18,17 +18,51 @@ img{
 }
 
 h1{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 p{
-    color: rgb(19, 19, 17);
+    text-align: justify;
+    text-align: center;
+    color: rgb(0, 0, 0);
 }
 
 .Educacao{
-    color: rgb(50, 230, 170);
+    color: rgb(0, 157, 105);
 }
 
 .Cultura{
-    color: rgb(37, 207, 207);
+    color: rgb(3, 99, 99);
+}
+
+.ambiente{
+    color: rgba(87, 162, 2, 0.89);
+}
+
+.estilo{
+    color: rgb(59, 99, 15);
+}
+
+.ciencia{
+    color: rgb(166, 16, 16);
+}
+
+.tecnologia{
+    color: rgb(105, 21, 21);
+}
+
+.saude{
+    color: rgb(115, 11, 122);
+}
+
+.bem-estar{
+    color: rgb(75, 16, 79);
+}
+
+.economia{
+    color: rgb(195, 183, 28);
+}
+
+.finanças{
+    color: rgb(155, 146, 21);
 }
