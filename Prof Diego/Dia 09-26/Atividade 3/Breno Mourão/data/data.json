@@ -1,26 +1,32 @@
 [
   {
-    "name": "Filme 1",
-    "imgPath": "C:\\Users\\breno\\Desktop\\Usabilidade\\A3Usabilidade\\Prof Diego\\Dia 09-26\\Atividade 3\\Breno Mourão\\img\\A-Viagem-de-Chihiro-DVD.webp",
-    "price": "1,99",
-    "horarios": "meio dia e meia noite"
+    "name": "nome do filme",
+    "imgPath": "C:\\Users\\323113386\\Desktop\\A3Usabilidade\\Prof Diego\\Dia 09-26\\Atividade 3\\Breno Mourão\\img\\A-Viagem-de-Chihiro-DVD.webp",
+    "price": "15,99",
+    "horarios": "tanto faz"
   },
   {
-    "name": "Filme 2",
-    "imgPath": "outro-caminho",
-    "price": "5,00",
-    "horarios": "de tarde"
+    "name": "outro filme",
+    "imgPath": "outro caminho",
+    "price": "outro preço",
+    "horarios": "tanto faz"
   },
   {
-    "name": "Filme 3",
-    "imgPath": "outro-caminho",
-    "price": "5,00",
-    "horarios": "de tarde"
+    "name": "outro filme",
+    "imgPath": "outro caminho",
+    "price": "outro preço",
+    "horarios": "tanto faz"
   },
   {
-    "name": "Filme 4",
-    "imgPath": "outro-caminho",
-    "price": "5,00",
-    "horarios": "de tarde"
+    "name": "outro filme",
+    "imgPath": "outro caminho",
+    "price": "outro preço",
+    "horarios": "tanto faz"
+  },
+  {
+    "name": "outro filme",
+    "imgPath": "outro caminho",
+    "price": "outro preço",
+    "horarios": "tanto faz"
   }
 ]

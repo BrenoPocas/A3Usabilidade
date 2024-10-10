@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/Imagem\ do\ WhatsApp\ de\ 2024-10-07\ à\(s\)\ 22.36.19_2a4d5a8f.jpg);
+    background-size: cover;
+    color: #000000;
+}
+
+header {
+    background-color: #0a183d;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+div {
+    background-color: #969696;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    max-width: 800px;
+    width: 90%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
