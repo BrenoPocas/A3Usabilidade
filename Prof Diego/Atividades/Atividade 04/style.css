@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: 0;
+    width: 100vw;
+    padding: 20px;
+    background-color: #c786ca;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 16px;
+    text-decoration: none;
+}
+
+article {
+    margin: 16px auto;
+    width: 40vw;
+}

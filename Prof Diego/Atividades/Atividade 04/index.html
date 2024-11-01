@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">BLOG</a>
+    </nav>
+
+    <article>
+        <p id="date"></p>
+        <img src="img/gatos.png" alt="Foto dos gatinhos">
+        <h1>This is my first article</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis voluptates itaque laudantium cumque
+            excepturi
+            mollitia facere! Ipsum sunt quos veniam ipsa voluptates! Incidunt voluptates quos et magnam consectetur.
+            Accusamus, ullam!
+            Nostrum, itaque assumenda voluptatibus eligendi sapiente dolores animi qui? Exercitationem ratione
+            voluptatibus
+            quibusdam corporis itaque magni blanditiis minus, iure earum veritatis et ut cum modi explicabo incidunt
+            inventore, laboriosam optio!
+            Officia et perferendis non voluptate error facilis corrupti excepturi, quo fugit aliquam, tempore distinctio
+            saepe ullam molestias corporis earum doloremque nulla. Distinctio magni quam, optio eius numquam placeat
+            expedita sit.</p>
+    </article>
+
+    <script>
+        const p_date = document.querySelector("#date")
+        function attDate(){
+            p_date.innerHTML = new Date().toLocaleDateString('pt-BR', {
+                day: 'numeric',
+                month: 'long',
+                year: 'numeric'
+            }).toUpperCase()
+        }
+        document.onload(attDate())    
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Média</title>
+</head>
+<body>
+
+    <form>
+        <label for="primeiraNota">Digite a primeira nota:</label><br>
+        <input type="number" id="primeiraNota" step="0.05"><br>
+
+        <label for="segundaNota">Digite a segunda nota:</label><br>
+        <input type="number" id="segundaNota" step="0.05"><br>
+
+        <label for="terceiraNota">Digite a terceira nota:</label><br>
+        <input type="number" id="terceiraNota" step="0.05"><br>
+    </form>
+
+    <button onclick="calcularMedia()">Calcular</button>
+
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

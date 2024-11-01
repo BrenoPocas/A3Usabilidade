@@ -1,0 +1,40 @@
+<!-- No formulário da página de cadastro, o usuário deve informar: nome, data de nascimento, e-mail, senha e confirmação de senha. A página de cadastro deve possuir um link para a página de login. -->
+<!-- Clicando no botão do formulário de login ou de cadastro, o usuário deve ser redirecionado para uma página de currículo.  -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <a href="login.html" id="voltar">Voltar</a>
+    <form action="curriculo.html" method="post" class="formulario">
+        <h1>Cadastro</h1>
+        <div class="inputBox">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div class="inputBox">
+            <label for="birthdate">Data de nascimento:</label>
+            <input type="date" name="birthdate" id="birthdate" required>
+        </div>
+        <div class="inputBox">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div class="inputBox">
+            <label for="password">Senha:</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <div class="inputBox">
+            <label for="confirmPassword">Confirmar senha:</label>
+            <input type="password" name="confirmPassword" id="confirmPassword" required>
+        </div>
+        <input type="submit" value="Cadastrar">
+    </form>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!-- O site deve possuir uma página de login que apresente o formulário de login e um link para a página de cadastro. No formulário de login, o usuário deve informar e-mail e senha.  -->
+<!-- Clicando no botão do formulário de login ou de cadastro, o usuário deve ser redirecionado para uma página de currículo.  -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+
+    <form action="curriculo.html" method="post" class="formulario">
+        <h1>Login</h1>
+      <div class="inputBox">
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <div class="inputBox">
+        <label for="password">Senha:</label>
+        <input type="password" name="password" id="password" required/>
+      </div>
+
+      <input type="submit" value="Login" />
+      <a href="cadastro.html">Não é cadastrado? clique aqui!</a>
+    </form>
+
+    <script src="scripts/script.js"></script>
+
+  </body>
+</html>

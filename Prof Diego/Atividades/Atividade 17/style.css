@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+form {
+    padding: 25px;
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+input, select {
+    width: 100%;
+    padding: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button[type="reset"]{
+    background-color: #007aff;
+}
+
+button[type="submit"]{
+    background-color: #27a844;
+}
